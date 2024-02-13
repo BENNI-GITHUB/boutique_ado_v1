@@ -1,3 +1,4 @@
+ALLOWED_HOSTS = ['8000-bennigithub-boutiqueado-bcel4pcil46.ws-eu108.gitpod.io']
 """
 Django settings for boutique_ado project.
 
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-o&a$&wdqzrlch^lhte4)he^-oe6cze(&!j5vuhq5k*xya*7p0z
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-bennigithub-boutiqueado-bcel4pcil46.ws-eu108.gitpod.io']
+
 
 # Application definition
 
@@ -41,6 +42,7 @@ INSTALLED_APPS = [
     'allauth.account',
     'allauth.socialaccount',
     'home',
+    'products',
 ]
 
 MIDDLEWARE = [
@@ -145,6 +147,11 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
 STATIC_URL = '/static/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
+
+MEDIA_URL = '/media/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
