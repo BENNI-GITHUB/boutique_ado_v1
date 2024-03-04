@@ -1,4 +1,4 @@
-ALLOWED_HOSTS = ['8000-bennigithub-boutiqueado-bcel4pcil46.ws-eu108.gitpod.io']
+ALLOWED_HOSTS = ['8000-bennigithub-boutiqueado-z2l4ft22w9x.ws-eu108.gitpod.io']
 """
 Django settings for boutique_ado project.
 
