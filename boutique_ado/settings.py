@@ -116,7 +116,7 @@ LOGIN_REDIRECT_URL = '/'
 WSGI_APPLICATION = 'boutique_ado.wsgi.application'
 
 
-ACCOUNT_EMAIL_VERIFICATION = 'none'
+# ACCOUNT_EMAIL_VERIFICATION = 'none'
 
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
